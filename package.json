@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "mocha-allure-reporter": "^1.4.0"
   }
 }
