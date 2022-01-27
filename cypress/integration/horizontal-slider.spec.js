@@ -1,8 +1,8 @@
 describe('Work with file', () => {
 
-  afterEach('Screenshots', () => {
+  afterEach('Screenshots', () => {    
     if (error) {
-      browser.takeScreenshot();
+      cy.screenshot('Capturing the screenshot');
     }
   })
 
