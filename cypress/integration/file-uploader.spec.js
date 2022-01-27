@@ -1,5 +1,11 @@
 describe('Work with file', () => {
 
+  afterEach('Screenshots', () => {
+    if (error) {
+      browser.takeScreenshot();
+    }
+  })
+  
   it('File Uploader', () => {
     cy.visit('http://the-internet.herokuapp.com/upload');
     cy.reload();
