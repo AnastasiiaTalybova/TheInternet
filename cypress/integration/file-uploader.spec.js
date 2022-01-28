@@ -1,10 +1,10 @@
 describe('Work with file', () => {
 
   afterEach('Screenshots', () => {
-    cy.screenshot('Capturing the screenshot');
-    // if (error) {
-    //   cy.screenshot('Capturing the screenshot');
-    // }
+    //cy.screenshot('Capturing the screenshot');
+    if (error) {
+      cy.screenshot('Capturing the screenshot');
+    }
   })
 
   it('File Uploader', () => {
